@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="ButtonText">I\’m a button</string>
+    <string name="app_name">مختبرات</string>
+    <string name="ButtonText">هذا زر</string>
+    <string name="hello_message">ٱلسَّلَامُ عَلَيْكُمْ</string>
 </resources>

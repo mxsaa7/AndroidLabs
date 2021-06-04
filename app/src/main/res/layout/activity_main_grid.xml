@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_columnSpan="2"
-        android:text="@string/textViewMsg"
+        android:text="Try again"
         android:textSize="30dp" />
 
     <Button
@@ -20,7 +20,7 @@
         android:layout_row="1"
         android:layout_column="0"
         android:layout_gravity="fill"
-        android:text="@string/flagButtonText" />
+        android:text="Egypt Flag" />
 
     <CheckBox
         android:id="@+id/checkBox"
@@ -29,7 +29,7 @@
         android:layout_row="1"
         android:layout_column="1"
         android:gravity="fill"
-        android:text="@string/checkBoxText" />
+        android:text="Check Here" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -45,7 +45,7 @@
         android:layout_height="wrap_content"
         android:layout_row="2"
         android:layout_column="1"
-        android:text="@string/switchText" />
+        android:text="Click here" />
 
     <EditText
         android:id="@+id/editText"
@@ -54,7 +54,7 @@
         android:layout_row="3"
         android:layout_column="0"
         android:layout_columnSpan="2"
-        android:hint="@string/hint_message"
+        android:hint="A name"
         android:inputType="textPersonName" />
 
 </GridLayout>

@@ -9,7 +9,7 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/textViewMsg"
+        android:text="Random"
         android:textSize="30dp"/>
 
     <LinearLayout
@@ -23,7 +23,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:layout_gravity="fill"
-            android:text="@string/flagButtonText" />
+            android:text="@string/ButtonText" />
 
         <CheckBox
             android:id="@+id/checkBox"
@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="fill"
-            android:text="@string/checkBoxText" />
+            android:text="Random" />
 
     </LinearLayout>
 
@@ -54,7 +54,7 @@
             android:layout_height="wrap_content"
             android:layout_weight="1"
             android:gravity="fill"
-            android:text="@string/switchText" />
+            android:text="Random" />
 
     </LinearLayout>
 
@@ -63,7 +63,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName"
-        android:hint="@string/hint_message"/>
+        android:hint="Person Name"/>
 
 
 </LinearLayout>
