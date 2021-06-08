@@ -1,6 +1,17 @@
-<?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">مختبرات</string>
-    <string name="ButtonText">هذا زر</string>
-    <string name="hello_message">ٱلسَّلَامُ عَلَيْكُمْ</string>
+    <string name="app_name">مختبرات Android</string>
+
+    <!-- Login Activity -->
+    <string name="email_hint">اكتب البريد الإلكتروني هنا:</string>
+    <string name="password">اكتب كلمة المرور العربية الخاصة بك:</string>
+    <string name="login_button">تسجيل الدخول:</string>
+
+    <!-- Profile Activity -->
+    <string name="profile_title">الملف الشخصي العربي الخاص بك:</string>
+    <string name="profile_name">اسمك بالعربية:</string>
+    <string name="profile_name_hint">تلميح لاسمك:</string>
+    <string name="profile_email">بريدك الإلكتروني باللغة العربية:</string>
+    <string name="profile_email_hint">تلميح للبريد الإلكتروني الخاص بك:</string>
+    <string name="profile_picture">صورتك:</string>
+    <string name="profile_picture_hint">انقر فوق الزر في الأعلى لالتقاط صورة:</string>
 </resources>

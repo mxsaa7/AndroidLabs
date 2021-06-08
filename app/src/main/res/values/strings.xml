@@ -1,5 +1,19 @@
-<resources>
-    <string name="app_name" translatable="false">Android Labs</string>
-    <string name="ButtonText" translatable="false">Click Here</string>
-    <string name="hello_message" translatable="false">Hello Worldْ</string>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" tools:ignore="MissingTranslation">AndroidLabs</string>
+
+    <!-- Login Activity -->
+    <string name="email" tools:ignore="MissingTranslation">Enter your email address:</string>
+    <string name="email_hint" tools:ignore="MissingTranslation">Type email here:</string>
+    <string name="password" tools:ignore="MissingTranslation">Type your English password:</string>
+    <string name="login_button" tools:ignore="MissingTranslation">Login</string>
+
+    <!-- Profile Activity -->
+    <string name="profile_title" tools:ignore="MissingTranslation">Your English profile</string>
+    <string name="profile_name" tools:ignore="MissingTranslation">Your English name:</string>
+    <string name="profile_name_hint" tools:ignore="MissingTranslation">Hint for your name</string>
+    <string name="profile_email" tools:ignore="MissingTranslation">Your English email:</string>
+    <string name="profile_email_hint" tools:ignore="MissingTranslation">Hint for your email</string>
+    <string name="profile_picture" tools:ignore="MissingTranslation">Your profile picture:</string>
+    <string name="profile_picture_hint" tools:ignore="MissingTranslation">Click the button above to take a picture.</string>
+    <string name="ButtonText" translatable="false">ButtonText</string>
 </resources>

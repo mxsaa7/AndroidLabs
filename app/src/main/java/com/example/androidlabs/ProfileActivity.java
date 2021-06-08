@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.provider.MediaStore;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 
@@ -25,6 +26,14 @@ public class ProfileActivity extends AppCompatActivity {
         ((ImageButton) findViewById(R.id.profile_picture)).setOnClickListener(clk -> {
             dispatchTakePictureIntent();
         });
+        Button chat = (Button) findViewById(R.id.btnChat);
+        chat.setOnClickListener( b -> {
+
+            Intent chatPage = new Intent(ProfileActivity.this, ChatRoomActivity.class);
+            startActivityForResult(chatPage, 428);
+        });
+        Log.e(ACTIVITY_NAME, "In function: onCreate");
+
     }
 
     private void dispatchTakePictureIntent() {
